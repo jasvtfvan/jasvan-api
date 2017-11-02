@@ -1,0 +1,28 @@
+{
+  "name": "jasvan-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "devbuild": "cross-env NODE_ENV=dev webpack --progress --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "jasvan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "mint-ui": "^2.2.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "style-loader": "^0.18.2",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^2.6.1"
+  }
+}
