@@ -1,14 +1,13 @@
 {
   "name": "jasvan-api",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "scripts": {
     "devbuild": "cross-env NODE_ENV=dev webpack --progress --hide-modules",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "keywords": [],
-  "author": "jasvan",
+  "author": "jasvtfvan",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.2",
@@ -24,5 +23,14 @@
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.0.1",
     "webpack": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaofanjack/jasvan-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhaofanjack/jasvan-api/issues"
+  },
+  "homepage": "https://github.com/zhaofanjack/jasvan-api#readme",
+  "description": ""
 }
