@@ -7,5 +7,5 @@
 ``` bash
 # install dependencies
 # 安装依赖
-npm install
- jasvan-api --save```
+npm install jasvan-api --save
+```
