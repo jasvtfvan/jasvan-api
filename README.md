@@ -1,4 +1,4 @@
-# jasvan-api
+﻿# jasvan-api
 
 > src开源
 
@@ -8,4 +8,4 @@
 # install dependencies
 # 安装依赖
 npm install
-```
+ jasvan-api --save```
